@@ -1,6 +1,8 @@
 # Maveryk AI public media
 
-Images and videos for Maveryk AI social posts, hosted here so Metricool can pull them by public link.
-Only posts Shaun has approved in Slack are added. One folder per posting date (YYYY-MM-DD).
+Images and videos for Maveryk AI social posts, hosted here so Slack can preview them and Metricool can pull them by public link.
 
-Link pattern: https://raw.githubusercontent.com/ShaunHeywood/maveryk-media/main/<date>/<file>
+- `previews/<date>/`: drafts waiting for Shaun's approval in Slack (removed once posted or skipped)
+- `<date>/`: approved files that Metricool publishes
+
+Link pattern: https://raw.githubusercontent.com/ShaunHeywood/maveryk-media/main/<path>
